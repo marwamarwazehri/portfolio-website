@@ -1,0 +1,26 @@
+.floatingdiv{
+  
+   display: flex; 
+   flex-direction: row;
+   background: white;
+   box-shadow: var(--box-Shadow);
+    border-radius: 17px;
+    height: 4.5rem;
+    width: 9rem;
+    padding:0.1rem;
+    position: relative;
+  
+}
+
+.floatingdiv img{
+   left: 200px;
+    width: 90px;
+    }
+
+.floatingdiv span{
+    font-family: sans-serif;
+    font-size: 16px;
+    position: absolute;
+    left: 100px;
+    top:20px
+}
